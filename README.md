@@ -122,3 +122,7 @@ sed -i /etc/sysconfig/selinux -r -e 's/^SELINUX=.*/SELINUX=disabled/g'
 
 reboot 
 ```
+- Проверяем работу [node_exporter](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2017-18-55.png)
+- Проверяем работу [prometheus](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2017-19-29.png)
+- 
+- Проверяем работу [graphana](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2017-55-21.png)
