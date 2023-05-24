@@ -1,6 +1,6 @@
 **Домашнее задание**
-Настройка мониторинга
 
+Настройка мониторинга
 
 **Что нужно сделать?**
 
@@ -48,8 +48,9 @@ cp -r prometheuspackage/console_libraries /etc/prometheus
 chown -R prometheus:prometheus /etc/prometheus/consoles
 chown -R prometheus:prometheus /etc/prometheus/console_libraries
 ```
-
+```
 vim /etc/prometheus/prometheus.yml
+```
 ```
 global:
   scrape_interval: 10s
@@ -63,9 +64,10 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9100']
 ```
+```
 chown prometheus:prometheus /etc/prometheus/prometheus.yml
 vim /etc/systemd/system/prometheus.service
-
+```
 ```
 [Unit]
 Description=Prometheus
@@ -98,8 +100,9 @@ tar xzfv node_exporter-1.5.0.linux-amd64.tar.gz
 useradd -rs /bin/false nodeusr
 mv node_exporter-1.5.0.linux-amd64/node_exporter /usr/local/bin/
 ```
-
+```
 vim /etc/systemd/system/node_exporter.service
+```
 ```
 [Unit]
 Description=Node Exporter
