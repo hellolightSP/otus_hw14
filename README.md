@@ -136,4 +136,4 @@ reboot
 - Проверяем работу [prometheus](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2017-19-29.png)
 - Создаем в graphana [data sources](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2018-52-00.png)
 - Создаем дашборд из готовых шаблонов по [ID](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2018-52-19.png)
-- Проверяем работу дашборда в [graphana](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2017-55-21.png)
+- Проверяем работу дашборда в [grafana](https://github.com/hellolightSP/otus_hw14/blob/main/Screenshot%20from%202023-05-24%2017-55-21.png)
