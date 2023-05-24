@@ -127,6 +127,7 @@ WantedBy=multi-user.target
 - В Centos 8 "из коробки" нужно отключить Selinux, или  node_exporter ругается на отсутствие прав и не стартует сервис:
 
 ```
+systemctl daemon-reload
 systemctl enable node_exporter
 sed -i /etc/sysconfig/selinux -r -e 's/^SELINUX=.*/SELINUX=disabled/g'
 
